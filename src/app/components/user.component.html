@@ -6,7 +6,7 @@
     <h3>Hobbies</h3>
     <ul>
       <li *ngFor="let hobby of hobbies;let i= index">{{hobby}}
-        <button (click)="deleteHobby(i)">x</button>
+        <button (click)="deleteHobby(i)">X</button>
       </li>
     </ul>
     <form (submit)="addHobby(hobby.value)">
